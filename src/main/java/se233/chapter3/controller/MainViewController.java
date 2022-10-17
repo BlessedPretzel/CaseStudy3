@@ -15,6 +15,8 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.input.TransferMode;
 import javafx.scene.layout.VBox;
 import javafx.stage.Popup;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import se233.chapter3.Launcher;
 import se233.chapter3.model.FileFreq;
 import se233.chapter3.model.PDFdocument;
@@ -41,6 +43,7 @@ public class MainViewController {
     private MenuBar menuBar;
     @FXML
     private ListView listView;
+    Logger logger = LoggerFactory.getLogger(MainViewController.class);
     @FXML
     public void initialize() {
 
@@ -126,6 +129,9 @@ public class MainViewController {
             Thread thread = new Thread(processTask);
             thread.setDaemon(true);
             thread.start();
+            inputListView.getItems().forEach(item -> {
+                logger.info("Files logged: {}", item);
+            });
         });
 
         listView.setOnMouseClicked(event -> {
