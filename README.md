@@ -15,4 +15,5 @@
 
 ### Exercise Solution
 [Logger added to the inputListView](https://github.com/BlessedPretzel/CaseStudy3/blob/master/src/main/java/se233/chapter3/controller/MainViewController.java#L133)
+
 [Packaged .jar](https://github.com/BlessedPretzel/CaseStudy3/blob/master/CaseStudy3-1.0-SNAPSHOT.jar)
