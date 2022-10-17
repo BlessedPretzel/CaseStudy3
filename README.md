@@ -10,3 +10,8 @@
 3. [MainViewController.java Line 37, 90, 95](https://github.com/BlessedPretzel/CaseStudy3/blob/master/src/main/java/se233/chapter3/controller/MainViewController.java)
 4. [MainViewController.java Line 48-49](https://github.com/BlessedPretzel/CaseStudy3/blob/master/src/main/java/se233/chapter3/controller/MainViewController.java)
 5. [MainViewController.java Line 149-151](https://github.com/BlessedPretzel/CaseStudy3/blob/master/src/main/java/se233/chapter3/controller/MainViewController.java)
+
+## Advanced Programming Lab Submission #7
+
+### Exercise Solution
+[Packaged .jar](https://github.com/BlessedPretzel/CaseStudy3/blob/master/CaseStudy3-1.0-SNAPSHOT.jar)
